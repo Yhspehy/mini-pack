@@ -1,0 +1,26 @@
+{
+  "name": "mini-pack",
+  "version": "1.0.0",
+  "description": "A mini-pack written in JS.",
+  "main": "index.js",
+  "scripts": {
+    "test:normal": "node src/mini-pack -PATH=/test/index.js",
+    "test:dev": "node src/mini-pack -PATH=/test/index.js -ENV=development",
+    "test:build": "node src/mini-pack -PATH=/test/index.js -ENV=production"
+  },
+  "keywords": [
+    "mini-pack"
+  ],
+  "author": "Yhspehy",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-traverse": "^6.26.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "uglify-es": "^3.3.9"
+  }
+}
